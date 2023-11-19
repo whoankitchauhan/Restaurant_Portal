@@ -72,3 +72,11 @@ button:hover {
 .login-link a:hover {
   text-decoration: underline;
 }
+/* For Succes Message  */
+.success-message {
+  color: #4caf50;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
