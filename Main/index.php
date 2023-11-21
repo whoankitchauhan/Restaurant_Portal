@@ -63,6 +63,9 @@
         <img src="https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food.jpg" alt="food" />
       </div>
     </div>
+    <div class="showMoreBtnDiv">
+    <a href="../About us Page/aboutUs.php"><button class="showMore-btn">Know More</button></a>
+    </div>
   </section>
   <section id="food">
     <h2>Types of food</h2>
@@ -201,10 +204,13 @@
 
         </div>
       </div>
-      <a href="../Menu Page/menu.php"><button class="showMore-btn">Show More</button></a>
 
 
     </div>
+    <div class="showMoreBtnDiv">
+    <a href="../Menu Page/menu.php"><button class="showMore-btn">Show More</button></a>
+    </div>
+
 
   </section>
   <section id="testimonials">
@@ -234,7 +240,7 @@
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
-            <img src="../Images/Customer 1.jpg" alt="" />
+            <img src="../Images/Customer 2.jpg" alt="" />
             <p class="customer-name">Aryan</p>
           </div>
         </div>
@@ -254,8 +260,8 @@
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
-            <img src="../Images/Customer 1.jpg" alt="" />
-            <p class="customer-name">Rahul</p>
+            <img src="../Images/Customer 3.jpg" alt="" />
+            <p class="customer-name">Aditya</p>
           </div>
         </div>
         <div class="star-rating">
@@ -271,6 +277,9 @@
           for a family dinner. Highly recommended!"
         </p>
       </div>
+    </div>
+    <div class="showMoreBtnDiv">
+    <a href="../Review Page/review.php"><button class="showMore-btn">See More</button></a>
     </div>
   </section>
 

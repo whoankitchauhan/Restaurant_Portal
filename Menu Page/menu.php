@@ -79,7 +79,7 @@
         background-size: 100% auto;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.3)),
-            url(https://www.shutterstock.com/shutterstock/photos/1494757634/display_1500/stock-photo-indian-style-roasted-tandoori-chicken-with-lemon-onion-and-cilantro-horizontal-and-close-up-photo-1494757634.jpg);
+            url(https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700438400&semt=ais);
 
     }
 
@@ -148,30 +148,28 @@
         <div>
             <h2>Butter Chicken</h2>
             <p>A creamy and flavorful chicken dish cooked with butter and spices.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/butter-chicken-factory-sector-14/order" target="_blank"> <button class="order-btn">Order</button> </a>
         </div>
     </section>
     <section class="section-2">
         <div>
             <h2>Masala Dosa</h2>
             <p>A South Indian delicacy consisting of a thin, crispy pancake filled with spiced potatoes.</p>
-            <button class="order-btn">Order</button>
-
+            <a href="https://www.zomato.com/ncr/masala-dosa-paharganj-new-delhi/menu" target="_blank"> <button class="order-btn">Order</button> </a>
         </div>
     </section>
     <section class="section-3">
         <div>
             <h2>Rogan Josh</h2>
             <p>Aromatic lamb curry cooked with various spices, rich in flavors.</p>
-            <button class="order-btn">Order</button>
-
+            <a href="https://www.zomato.com/rogan-josh-food-truck/order" target="_blank"> <button class="order-btn">Order</button> </a>
         </div>
     </section>
     <section class="section-4">
         <div>
             <h2>Chole Bhature</h2>
             <p>A classic combination of spicy chickpea curry served with fried bread.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/sitaram-ke-special-chole-bhature-azadpur-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -179,7 +177,7 @@
         <div>
             <<h2>Palak Paneer</h2>
                 <p>A vegetarian dish made of spinach and paneer (Indian cottage cheese).</p>
-                <button class="order-btn">Order</button>
+                <a href="https://www.zomato.com/ncr/ghar-ka-khana-by-eatfit-tilak-nagar-new-delhi/order" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -187,7 +185,7 @@
         <div>
             <h2>Tandoori Chicken</h2>
             <p>Chicken marinated in yogurt and spices, roasted in a tandoor (clay oven).</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/indian-tandoori-chicken-vasundhara-enclave-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -195,7 +193,7 @@
         <div>
             <h2>Pani Puri</h2>
             <p>A popular street food consisting of crispy hollow shells filled with flavored water, potatoes, and chickpeas.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/pani-puri-mayur-vihar-phase-3-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -203,7 +201,7 @@
         <div>
             <h2>Hyderabadi Biryani</h2>
             <p>Fragrant rice dish cooked with meat, spices, and saffron, originating from Hyderabad.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/hyderabadi-biryani-bhawan-rajinder-nagar-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -211,7 +209,7 @@
         <div>
             <h2>Gulab Jamun</h2>
             <p>Deep-fried dumplings soaked in sugar syrup, a popular Indian dessert.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/the-gulab-jamun-cafe-sector-39-gurgaon/order" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
     </section>
@@ -219,7 +217,7 @@
         <div>
             <h2>Rasgulla</h2>
             <p>Soft and spongy balls made from cottage cheese, soaked in sugar syrup.</p>
-            <button class="order-btn">Order</button>
+            <a href="https://www.zomato.com/ncr/the-rasgulla-store-malviya-nagar-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
         </div>
     </section>
 </body>

@@ -38,32 +38,30 @@ include("database.php");
         }
         ?>
     </div>
+
+    <script>
+        <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+
+            $sql = "SELECT * FROM users WHERE username='$username'";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows == 1) {
+                $row = $result->fetch_assoc();
+                if (password_verify($password, $row['password'])) {
+                    echo "alert('Login successful!');";
+                    echo "window.location.href = '../Main/index.php';";
+                } else {
+                    echo "alert('Incorrect password!');";
+                }
+            } else {
+                echo "alert('User not found!');";
+            }
+        }
+        ?>
+    </script>
 </body>
 
 </html>
-
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    $sql = "SELECT * FROM users WHERE username='$username'";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows == 1) {
-        $row = $result->fetch_assoc();
-        if (password_verify($password, $row['password'])) {
-            echo "Login successful!";
-            header("Location: ../Main/index.php "); // Redirect to index.php
-            exit();
-        } else {
-            echo "Incorrect password!";
-        }
-    } else {
-        echo "User not found!";
-    }
-}
-
-mysqli_close($conn);
-
-?>
