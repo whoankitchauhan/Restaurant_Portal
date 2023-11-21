@@ -316,7 +316,7 @@ body {
 }
 
 /* ........./ Testimonial /.......... */
-#testimonials {
+/* #testimonials {
   padding: 5rem 0;
   background: rgba(243, 243, 243);
 }
@@ -351,7 +351,64 @@ body {
   object-position: center;
   border-radius: 50%;
   margin: auto;
+} */
+#testimonials {
+  padding: 5rem 0;
+  background: rgba(243, 243, 243);
+  text-align: center;
 }
+
+.testimonial-title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.testimonial-box {
+  text-align: left;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.showMoreBtnDiv {
+  margin-top: 2rem;
+}
+
+.showMore-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9529;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.showMore-btn:hover {
+  background-color: #e68318;
+}
+
+
 /* ........ Contact Us........... */
 #contact {
   padding: 5rem 0;

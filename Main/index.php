@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="showMoreBtnDiv">
-    <a href="../About us Page/aboutUs.php"><button class="showMore-btn">Know More</button></a>
+      <a href="../About us Page/aboutUs.php"><button class="showMore-btn">Know More</button></a>
     </div>
   </section>
   <section id="food">
@@ -208,7 +208,7 @@
 
     </div>
     <div class="showMoreBtnDiv">
-    <a href="../Menu Page/menu.php"><button class="showMore-btn">Show More</button></a>
+      <a href="../Menu Page/menu.php"><button class="showMore-btn">Show More</button></a>
     </div>
 
 
@@ -257,36 +257,57 @@
           The only suggestion would be to add more vegetarian options."
         </p>
       </div>
-      <div class="testimonial-box">
-        <div class="customer-detail">
-          <div class="customer-photo">
-            <img src="../Images/Customer 3.jpg" alt="" />
-            <p class="customer-name">Aditya</p>
-          </div>
+    </div>
+    <div class="testimonial-box">
+      <div class="customer-detail">
+        <div class="customer-photo">
+          <img src="../Images/Customer 4.jpeg" alt="" />
+          <p class="customer-name">Krishna</p>
         </div>
-        <div class="star-rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-        </div>
-        <p class="testimonial-text">
-          "I had a fantastic dining experience! The food was fresh, flavorful,
-          and beautifully presented. The atmosphere was delightful, perfect
-          for a family dinner. Highly recommended!"
-        </p>
       </div>
+      <div class="star-rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span>
+      </div>
+      <p class="testimonial-text">
+        "Great place for a casual hangout! Loved the variety of dishes on
+        the menu. The staff was attentive, and the food was served promptly.
+        The only suggestion would be to add more vegetarian options."
+      </p>
+    </div>
+    <div class="testimonial-box">
+      <div class="customer-detail">
+        <div class="customer-photo">
+          <img src="../Images/Customer 3.jpg" alt="" />
+          <p class="customer-name">Aditya Gautam</p>
+        </div>
+      </div>
+      <div class="star-rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+      <p class="testimonial-text">
+        "I had a fantastic dining experience! The food was fresh, flavorful,
+        and beautifully presented. The atmosphere was delightful, perfect
+        for a family dinner. Highly recommended!"
+      </p>
+    </div>
     </div>
     <div class="showMoreBtnDiv">
-    <a href="../Review Page/review.php"><button class="showMore-btn">See More</button></a>
+      <a href="../Review Page/review.php"><button class="showMore-btn">See More</button></a>
     </div>
   </section>
 
   <section id="contact">
     <div class="contact-container container">
       <div class="contact-img">
-        <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="Restaurant Image" />
+        <img src="../Images/AIT Restaurant LOGO.png" alt="Restaurant Image" />
       </div>
       <div class="form-container">
         <h2 class="feedback-title">Feedback</h2>
@@ -310,7 +331,7 @@
   </section>
 
   <footer id="footer">
-    <h2>Restaurant &copy; All rights reserved</h2>
+    <h2>AIT Restaurant &copy; All rights reserved</h2>
   </footer>
 </body>
 <!-- 
