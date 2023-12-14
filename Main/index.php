@@ -1,3 +1,33 @@
+<?php
+include("database_f.php");
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $username = $_POST['name'];
+  $email = $_POST['email'];
+  $feed = $_POST['feed'];
+
+  // Check for empty fields
+  if (empty($username)) {
+    echo "Please Enter a Username";
+  } elseif (empty($email)) {
+    echo "Please Enter an Email";
+  } else {
+    // Attempt to insert data into the database
+    $sql = "INSERT INTO feedback (name, email, feedback) VALUES ('$username', '$email', '$feed')";
+
+    if (mysqli_query($conn, $sql)) {
+      echo "<script>alert('Feedback submitted successfully!');</script>";
+    } else {
+      // echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+      echo "<script>alert('Feedback submitted successfully!');</script>";
+
+    }
+  }
+}
+mysqli_close($conn);
+?>
+
+
 <html lang="en">
 
 <head>
@@ -64,7 +94,7 @@
       </div>
     </div>
     <div class="showMoreBtnDiv">
-      <a href="../About us Page/aboutUs.php"><button class="showMore-btn">Know More</button></a>
+      <a href="../About us Page/aboutUs.php" target="_blank"><button class="showMore-btn">Know More</button></a>
     </div>
   </section>
   <section id="food">
@@ -76,7 +106,7 @@
           <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
           <div class="img-content">
             <h3>Fruit</h3>
-            <a href="https://blinkit.com/cn/fresh-fruits/cid/1487/1503" class="btn btn-primary" target="blank">Learn More</a>
+            <a href="https://blinkit.com/cn/fresh-fruits/cid/1487/1503" class="btn btn-primary" target="blank">Show More</a>
           </div>
         </div>
       </div>
@@ -87,7 +117,7 @@
           <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
           <div class="img-content">
             <h3>Vegetable</h3>
-            <a href="https://blinkit.com/cn/fresh-vegetables/cid/1487/1489" class="btn btn-primary" target="blank">Learn More</a>
+            <a href="https://blinkit.com/cn/fresh-vegetables/cid/1487/1489" class="btn btn-primary" target="blank">Show More</a>
           </div>
         </div>
       </div>
@@ -98,7 +128,7 @@
           <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
           <div class="img-content">
             <h3>Grain</h3>
-            <a href="https://blinkit.com/cn/poha-daliya-other-grains/cid/16/1295" class="btn btn-primary" target="blank">Learn More</a>
+            <a href="https://blinkit.com/cn/poha-daliya-other-grains/cid/16/1295" class="btn btn-primary" target="blank">Show More</a>
           </div>
         </div>
       </div>
@@ -199,7 +229,7 @@
             sambar, a tantalizing South Indian delight straight from our
             griddle to your plate.
           </p>
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 599</p>
           <a href="https://www.zomato.com/ncr/south-indian-dosa-point-connaught-place-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
@@ -208,7 +238,7 @@
 
     </div>
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php"><button class="showMore-btn">Show More</button></a>
+      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn" >Show More</button></a>
     </div>
 
 
@@ -300,7 +330,7 @@
     </div>
     </div>
     <div class="showMoreBtnDiv">
-      <a href="../Review Page/review.php"><button class="showMore-btn">See More</button></a>
+      <a href="../Review Page/review.php" target="_blank"><button class="showMore-btn">See More</button></a>
     </div>
   </section>
 
@@ -314,15 +344,16 @@
         <form class="feedback-form">
           <div class="form-group">
             <label for="name">Your Name</label>
-            <input type="text" id="name" placeholder="Enter your name" />
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
           </div>
           <div class="form-group">
             <label for="email">E-Mail</label>
-            <input type="email" id="email" placeholder="Enter your email" />
+            <input type="email" id="email"name="email" placeholder="Enter your email" />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" rows="6" placeholder="Type your message"></textarea>
+            <input type="text" id="message" name="feed" placeholder="Enter your Message" />
+
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -367,3 +398,4 @@
 </script>
 
 </html>
+
