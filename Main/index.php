@@ -20,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
       // echo "Error: " . $sql . "<br>" . mysqli_error($conn);
       echo "<script>alert('Feedback submitted successfully!');</script>";
-
     }
   }
 }
@@ -238,7 +237,7 @@ mysqli_close($conn);
 
     </div>
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn" >Show More</button></a>
+      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">Show More</button></a>
     </div>
 
 
@@ -348,7 +347,7 @@ mysqli_close($conn);
           </div>
           <div class="form-group">
             <label for="email">E-Mail</label>
-            <input type="email" id="email"name="email" placeholder="Enter your email" />
+            <input type="email" id="email" name="email" placeholder="Enter your email" />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
@@ -398,4 +397,3 @@ mysqli_close($conn);
 </script>
 
 </html>
-
