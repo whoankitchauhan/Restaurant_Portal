@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Simple CAPTCHA</title>
 </head>
+
 <body>
   <div id="captchaContainer">
     <input type="text" id="captchaInput" placeholder="Enter CAPTCHA">
@@ -26,7 +28,7 @@
     function validateCaptcha() {
       let userCaptcha = document.getElementById('captchaInput').value.trim();
       let generatedCaptcha = document.getElementById('captchaOutput').innerText;
-      
+
       if (userCaptcha === generatedCaptcha) {
         alert('CAPTCHA matched! Proceed.');
       } else {
@@ -39,4 +41,5 @@
     };
   </script>
 </body>
+
 </html>

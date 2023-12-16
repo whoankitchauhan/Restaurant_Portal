@@ -9,7 +9,7 @@
 
 <body>
     <div class="container">
-        <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST" onsubmit="return validateForm()">
+        <form id="loginForm" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
             <h2>Login to Restaurant</h2>
             <div class="input-group">
                 <label for="username">Username or Email:</label>
@@ -54,25 +54,20 @@
 
             if (userCaptcha === generatedCaptcha) {
                 alert('CAPTCHA matched! Proceed with login.');
-                return true; // Proceed with form submission
+                window.location.href = '../Main/index.php';
             } else {
                 alert('CAPTCHA not matched! Try again.');
-                return false; // Prevent form submission
             }
         }
 
         window.onload = function() {
             generateCaptcha();
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission for now
+                validateCaptcha(); // Call validateCaptcha() when the form is submitted
+            });
         };
-
-        // Validation on form submission
-        document.querySelector('form').addEventListener('submit', function(event) {
-            if (!validateCaptcha()) {
-                event.preventDefault(); // Prevent form submission if CAPTCHA is not matched
-            }
-        });
     </script>
-
 </body>
 
 </html>
