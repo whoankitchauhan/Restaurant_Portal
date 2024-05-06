@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 
+
 <body>
     <div class="container">
         <form id="loginForm" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
@@ -36,6 +37,7 @@
         }
         ?>
     </div>
+
 
     <script>
         function generateCaptcha() {

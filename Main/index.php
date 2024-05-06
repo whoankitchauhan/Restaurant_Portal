@@ -147,7 +147,7 @@ mysqli_close($conn);
             From spicy masala omelets to creamy buttery egg curries, dive into
             our range of flavorful egg dishes straight from Indian kitchens.
           </p>
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 55</p>
           <a href="https://www.zomato.com/ncr/the-egg-company-1-rohini-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
         </div>
       </div>
@@ -162,7 +162,7 @@ mysqli_close($conn);
             Embrace the aromatic spices and rich sauces in our desi-style
             noodles, inspired by the vibrant street food culture of India.
           </p>
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 430</p>
           <a href="https://www.zomato.com/ncr/oodles-noodles-malviya-nagar-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
@@ -178,7 +178,7 @@ mysqli_close($conn);
             assortment of diverse Indian flavors and regional specialties.
           </p>
 
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 99</p>
 
           <a href="https://www.zomato.com/ncr/royal-thalis-new-ashok-nagar-noida" target="_blank"> <button class="order-btn">Order</button> </a>
 
@@ -195,7 +195,7 @@ mysqli_close($conn);
             marinated with aromatic spices and cooked in a traditional clay
             oven.
           </p>
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 265</p>
           <a href="https://www.zomato.com/ncr/indian-tandoori-chicken-vasundhara-enclave-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
@@ -212,7 +212,7 @@ mysqli_close($conn);
             unique selection of locally-inspired pizzas topped with spicy
             masalas and fresh herbs.
           </p>
-          <p class="food-price">Price: &#8377; 250</p>
+          <p class="food-price">Price: &#8377; 350</p>
           <a href="https://www.zomato.com/ncr/dominos-pizza-1-janakpuri-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
 
         </div>
