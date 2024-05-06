@@ -286,51 +286,52 @@ mysqli_close($conn);
           The only suggestion would be to add more vegetarian options."
         </p>
       </div>
-    </div>
-    <div class="testimonial-box">
-      <div class="customer-detail">
-        <div class="customer-photo">
-          <img src="../Images/Customer 4.jpeg" alt="" />
-          <p class="customer-name">Krishna</p>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img src="../Images/Customer 4.jpeg" alt="" />
+            <p class="customer-name">Krishna</p>
+          </div>
         </div>
-      </div>
-      <div class="star-rating">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star "></span>
-        <span class="fa fa-star "></span>
-      </div>
-      <p class="testimonial-text">
-        "Great place for a casual hangout! Loved the variety of dishes on
-        the menu. The staff was attentive, and the food was served promptly.
-        The only suggestion would be to add more vegetarian options."
-      </p>
-    </div>
-    <div class="testimonial-box">
-      <div class="customer-detail">
-        <div class="customer-photo">
-          <img src="../Images/Customer 3.jpg" alt="" />
-          <p class="customer-name">Aditya Gautam</p>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star "></span>
+          <span class="fa fa-star "></span>
         </div>
+        <p class="testimonial-text">
+          "Great place for a casual hangout! Loved the variety of dishes on
+          the menu. The staff was attentive, and the food was served promptly.
+          The only suggestion would be to add more vegetarian options."
+        </p>
       </div>
-      <div class="star-rating">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img src="../Images/Customer 3.jpg" alt="" />
+            <p class="customer-name">Aditya Gautam</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <p class="testimonial-text">
+          "I had a fantastic dining experience! The food was fresh, flavorful,
+          and beautifully presented. The atmosphere was delightful, perfect
+          for a family dinner. Highly recommended!"
+        </p>
       </div>
-      <p class="testimonial-text">
-        "I had a fantastic dining experience! The food was fresh, flavorful,
-        and beautifully presented. The atmosphere was delightful, perfect
-        for a family dinner. Highly recommended!"
-      </p>
-    </div>
     </div>
     <div class="showMoreBtnDiv">
       <a href="../Review Page/review.php" target="_blank"><button class="showMore-btn">See More</button></a>
     </div>
+    </div>
+
   </section>
 
   <section id="contact">
