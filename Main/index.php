@@ -329,7 +329,7 @@ mysqli_close($conn);
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
-            <img src="../Images/Customer 3.jpg" alt="" />
+            <img src="../Images/Customer 5.jpg" alt="" />
             <p class="customer-name">Sudhanshu</p>
           </div>
         </div>
