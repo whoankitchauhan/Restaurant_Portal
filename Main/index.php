@@ -289,8 +289,8 @@ mysqli_close($conn);
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
-            <img src="../Images/Customer 4.jpeg" alt="" />
-            <p class="customer-name">Krishna</p>
+            <img src="../Images/Customer 4.jpg" alt="" />
+            <p class="customer-name">Kasak Gupta</p>
           </div>
         </div>
         <div class="star-rating">
@@ -311,6 +311,26 @@ mysqli_close($conn);
           <div class="customer-photo">
             <img src="../Images/Customer 3.jpg" alt="" />
             <p class="customer-name">Aditya Gautam</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <p class="testimonial-text">
+          "I had a fantastic dining experience! The food was fresh, flavorful,
+          and beautifully presented. The atmosphere was delightful, perfect
+          for a family dinner. Highly recommended!"
+        </p>
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img src="../Images/Customer 3.jpg" alt="" />
+            <p class="customer-name">Sudhanshu</p>
           </div>
         </div>
         <div class="star-rating">
