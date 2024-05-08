@@ -51,7 +51,7 @@ mysqli_close($conn);
         <li>
           <a href="#home"> <i class="fas fa-home"></i> Home</a>
         </li>
-        <li><a href="#about"> About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#food">Category</a></li>
         <li><a href="#food-menu">Menu</a></li>
         <li><a href="#testimonials">Testimonial</a></li>
