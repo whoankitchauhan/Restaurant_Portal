@@ -361,9 +361,9 @@ mysqli_close($conn);
       </div>
       <div class="form-container">
         <h2 class="feedback-title">Feedback</h2>
-        <form class="feedback-form">
+        <form  action ="link-to-google-form"class="feedback-form" >
           <div class="form-group">
-            <label for="name">Your Name</label>
+            <!-- <label for="name">Your Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" />
           </div>
           <div class="form-group">
@@ -374,8 +374,16 @@ mysqli_close($conn);
             <label for="message">Message</label>
             <input type="text" id="message" name="feed" placeholder="Enter your Message" />
 
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          </div> -->
+          
+          
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIkyjc65_DXu7t-E7d0Apm0EZ99igUo_zMMSmuG7n-GJGKVQ/viewform?usp=sf_link">
+            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+            Give a Feedback
+          </a>
+
+
+          
         </form>
       </div>
     </div>
