@@ -51,7 +51,7 @@ mysqli_close($conn);
         <li>
           <a href="#home"> <i class="fas fa-home"></i> Home</a>
         </li>
-        <li><a href="#about"> About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#food">Category</a></li>
         <li><a href="#food-menu">Menu</a></li>
         <li><a href="#testimonials">Testimonial</a></li>
@@ -65,7 +65,7 @@ mysqli_close($conn);
   <section class="showcase-area" id="showcase">
     <div class="showcase-container">
       <h1 class="main-title" id="home">Eat Right Food</h1>
-      <p class="title">Eat Healty, it is good for our health.</p>
+      <p class="title">Eat Healthy, it is good for our health.</p>
       <a href="#food-menu" class="btn btn-primary">Menu</a>
     </div>
   </section>
