@@ -263,7 +263,7 @@ mysqli_close($conn);
           "Exceptional service and delicious food! I ordered their special
           pasta dish, and it was beyond my expectations. The ambiance was
           cozy, and the staff was incredibly friendly. Definitely coming
-          back!"
+          back!" 
         </p>
       </div>
       <div class="testimonial-box">
