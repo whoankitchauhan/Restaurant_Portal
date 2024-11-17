@@ -57,6 +57,10 @@ mysqli_close($conn);
         <li><a href="#testimonials">Testimonial</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="../Login Page/login.php">Login</a></li>
+        <li><i class="fas fa-search"></i>
+        </li>
+
+        
 
       </ul>
       <h1 class="logo">AIT Restaurant</h1>
