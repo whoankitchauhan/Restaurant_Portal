@@ -108,7 +108,7 @@
             </div>
             <button type="submit">Login</button>
             <div class="signup-link">
-                <p>Don't have an account? <a href="./registeration.php">Sign Up</a></p>
+                <p>Don't have an account? <a href="./registration.php">Sign Up</a></p>
             </div>
         </form>
         <?php
